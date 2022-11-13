@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/erieblack"
+    tools:context=".JavaActivity1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dimgrey"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Introduction"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+        android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_marginTop="70dp"
+              android:layout_width="match_parent"
+              android:layout_gravity="center"
+              android:layout_height="180dp"
+              android:src="@drawable/javapic1"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="What is Java"
+              android:textSize="25sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nJava is a programming language and a platform.\n \nJava is a high level, robust, object-oriented and secure programming language.\n \nPlatform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.\n \n \n"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:text="Java Example"
+              android:textColor="@color/teal_700"
+              android:textSize="25sp" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nLet's have a quick look at Java programming example. A detailed description of Hello Java World  example is available in next page."/>
+
+          <ImageView
+              android:layout_marginTop="10dp"
+              android:layout_width="300dp"
+              android:layout_gravity="center"
+              android:layout_height="180dp"
+              android:src="@drawable/hellojavaworld"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Application"
+              android:textSize="25sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nThere are many devices where Java is currently used. Some of them are as follows:\n"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:text="
+    1. Web Applications such as irctc.co.in, javatpoint.com, etc.\n\n
+    2. Desktop Applications such as acrobat reader, media player, antivirus, etc.\n\n
+    3. Mobile\n\n
+    4. Embedded System\n\n
+    5. Games\n\n
+    6. Smart Card\n\n
+    7. Robotics.etc\n\n\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Java Platforms/Editions"
+              android:textSize="25sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nThere are 4 Platforms/Editions in Java: \n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="1) Java SE (Java Standard Edition)"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nIt is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="2) Java ME (Java Micro Edition)"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nIt is a micro platform which is mainly used to develop mobile application.\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="3) Java EE (Java Enterprise Edition)"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nIt is an enterprise platform which is mainly used to develop web and enterprise applications. It is built on the top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="4) JavaFX"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nIt is used to develop rich internet applications. It uses a light-weight user interface API.\n\n\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Types of Java Applications"
+              android:textSize="25sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nThere are mainly 4 types of applications that can be created using Java programming:\n\n"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="1) Standalone Application"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nStandalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.\n\n"/>
+
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="2) Enterprise Application"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nAn application that is distributed in nature, such as banking applications, etc. is called enterprise application. It has advantages of the high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.\n\n"/>
+
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="3) Web Application"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nAn application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.\n\n"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="4) Mobile Application"
+              android:textSize="20sp"
+              android:layout_marginLeft="20dp"
+              android:textColor="@color/teal_700"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:justificationMode="inter_word"
+              android:text="\nAn application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.\n\n"/>
+
+
+      </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mysql"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dimgrey"
+        android:elevation="4dp"
+        app:title="MySQL/phpMyAdmin"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/log"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:elevation="8dp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  1. What Is MySQL?"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  2. MySQL Data Types"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  3. MySQL String Data Type"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  4. MySQL Numeric Data Type"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  5. MySQL Date and Time Data Type"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  6. Designing our Sample Database: My \n  Friends Database"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  7. What is phpMyAdmin?"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  8. Creating a MySQL Database from \n  phpMyAdmin"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  9. Adding Records"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  10. Editing Records"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  11. Deleting Records"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  12. Altering The Structure of My Table"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  13. Making A Backup of MySQL Database"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  14. Dropping a Database"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  15. Restoring My Database From The \n  Backup"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  16. Querying My MySQL Database"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  17. What is SQL?"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  18. The Data Definition Language(DDL)"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  19. The Data Manipulation Language(DML)"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/m20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  20. The Data Control Language(DCL)"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

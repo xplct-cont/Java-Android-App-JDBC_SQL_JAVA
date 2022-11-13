@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javamysql">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JavaMysql">
+        <activity
+            android:name=".MysqlActivity20"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity19"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity18"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity17"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity16"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity15"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity14"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity13"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity12"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity11"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity10"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity9"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity8"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity7"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity6"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity16"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity15"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity14"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity13"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity12"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity11"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity10"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity9"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity8"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity7"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity6"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".QuestAnswer"
+            android:exported="true" />
+        <activity
+            android:name=".Jdbc"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MysqlActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".Mysql"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".Java"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

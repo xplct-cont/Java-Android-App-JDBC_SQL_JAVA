@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Java"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dimgrey"
+        android:elevation="4dp"
+        app:title="Basic Java"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/log"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:elevation="8dp"
+            />
+        
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  1. Java Introduction"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  2. How to set path in Java"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  3. First Java Program | Hello Java World"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  4.Difference Between JDK, JRE, and JVM"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  5. Java Variables"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  6. Java Data Types"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  7. Operators In Java"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/a8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  8. Java If-else Statement"
+                android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  9. Java If Statement"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  10. Nested-If Statement"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  11. Java Switch Statement"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  12. For Loops in Java"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  13. Do-While Loop in Java"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  14. Java Break Statement"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  15. Java Command Line Arguments"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/a16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  16. Java Comments"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttoncolor"
+                android:gravity="left|center_vertical"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
